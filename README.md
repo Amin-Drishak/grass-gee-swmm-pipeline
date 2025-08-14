@@ -20,9 +20,9 @@ This workflow:
 
 ---
 
-## Example Output
+## Example Output Hydrograph
+
+The following hydrograph compares baseline and scenario flows from the mock SWMM simulation.  
+Major ticks represent **days**, and minor ticks (in gray) represent **6-hour intervals** for better readability.
+
 ![Hydrograph](hydrograph.png)
-
----
-
-**Note:** Uses mock data for demonstration. Easily adaptable to real catchments.
