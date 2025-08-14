@@ -1,10 +1,28 @@
-# GRASS GIS + Google Earth Engine → SWMM Pipeline (Demo)
+# GRASS GIS + Google Earth Engine → SWMM Pipeline
 
-This is a **minimal working example** of a reproducible geospatial workflow.
-It simulates:
-- Retrieving mock rainfall raster from Google Earth Engine
-- Extracting land cover statistics using GRASS GIS (mocked)
-- Preparing a SWMM input file
-- Running a simple hydrologic simulation and plotting a hydrograph
+**Author:** Muhammad Amin Khan  
+**Purpose:** Minimal working example showing how to integrate **GRASS GIS**, **Google Earth Engine**, and **SWMM** for stormwater modeling.
 
-All data and processing here are **illustrative only**.
+This workflow:
+1. Fetches and preprocesses remote sensing & land cover data using Google Earth Engine.
+2. Uses GRASS GIS for spatial analysis and watershed delineation.
+3. Prepares and runs a simplified SWMM model to estimate peak flows.
+4. Outputs hydrographs and summary statistics.
+
+---
+
+## Tools & Libraries
+- Python 3.x
+- GRASS GIS
+- Google Earth Engine API
+- EPA SWMM
+- Pandas, NumPy, Matplotlib
+
+---
+
+## Example Output
+![Hydrograph](hydrograph.png)
+
+---
+
+**Note:** Uses mock data for demonstration. Easily adaptable to real catchments.
