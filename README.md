@@ -1,13 +1,10 @@
-# GRASS-GEE-SWMM Pipeline (Example)
+# GRASS GIS + Google Earth Engine → SWMM Pipeline (Demo)
 
-Minimal example showing a workflow from GRASS GIS + Google Earth Engine (GEE) to SWMM.
+This is a **minimal working example** of a reproducible geospatial workflow.
+It simulates:
+- Retrieving mock rainfall raster from Google Earth Engine
+- Extracting land cover statistics using GRASS GIS (mocked)
+- Preparing a SWMM input file
+- Running a simple hydrologic simulation and plotting a hydrograph
 
-## Steps
-1. Download DEM & land cover data from GEE.
-2. Process with GRASS GIS to extract watershed parameters.
-3. Export SWMM `.inp` file for stormwater simulation.
-
-## Status
-This is a mock pipeline for demonstration purposes.
-
----
+All data and processing here are **illustrative only**.
